@@ -14,7 +14,7 @@
 
 # production
 /build
-
+/gray-hawk
 # misc
 .DS_Store
 *.pem

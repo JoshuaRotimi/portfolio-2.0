@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+//import ProfileImage from "../assets/realtor-3.jpeg";
 
 const About = () => {
   return (
@@ -32,6 +33,7 @@ const About = () => {
           <Image
             src="https://images.pexels.com/photos/10239356/pexels-photo-10239356.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
             alt="Profile Picture"
+            //src={ProfileImage}
             layout={"fill"}
             className={"rounded-full object-cover md:rounded-lg"}
           />
@@ -47,8 +49,8 @@ const About = () => {
             with React and NextJS. I also have experience in using MongoDB as a
             database, Jest for testing and Node as a server-side language. I
             have also worked with React Native for building hybrid mobile apps
-            for both android and iOS devices. I am currently I'm working on a
-            range of freelance projects and seeking new opportunities. Outside
+            for both android and iOS devices. I am currently working on a range
+            of freelance projects and seeking new opportunities. Outside
             software development and coding, I love music, traveling, taking on
             new adventures, playing video games.
           </p>

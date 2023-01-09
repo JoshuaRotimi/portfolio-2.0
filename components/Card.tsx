@@ -6,7 +6,7 @@ const Card = () => {
     <article
       className={
         "flex flex-col rounded-l items-center space-y-7 flex-shrink-0" +
-        " w-[500px] md:w-[600px] xl:w-[900]px snap-center bg-[#292929] " +
+        " w-[500px] xl:w-[800]px snap-center bg-[#292929] " +
         "p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
       }
     >

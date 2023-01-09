@@ -1,10 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import { motion } from "framer-motion";
-import profile from "../public/img/profile.jpg";
 
 type Props = {};
 
@@ -12,8 +10,8 @@ const Hero = ({}: Props) => {
   const [text, count] = useTypewriter({
     words: [
       "Hi, the name's Joshua",
-      "Guy-who-loves-to-Code.tsx",
-      "<But-loves-football-more/>",
+      "A guy who loves to code.tsx",
+      "<Big-football-fan/>",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -35,11 +33,7 @@ const Hero = ({}: Props) => {
         <h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[15px]"}>
           Software Engineer
         </h2>
-        <h1
-          className={
-            "text-3xl md:text-5xl lg:text-6xl font-semibold scroll-px-10"
-          }
-        >
+        <h1 className={"text-3xl md:text-5xl font-semibold scroll-px-10"}>
           <span>{text}</span>
           <Cursor cursorColor={"#f7ab0a"}></Cursor>
         </h1>
